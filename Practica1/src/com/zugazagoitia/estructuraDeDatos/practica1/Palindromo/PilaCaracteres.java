@@ -51,6 +51,27 @@ public class PilaCaracteres {
         return valor;
     }
 
+    public boolean equals(PilaCaracteres pila){
+        boolean eq = true;
+        PilaCaracteres aux = this;
+        if (this.numElemPila()!= pila.numElemPila())eq = false;
+        else {
+            for (int i = 0; i < this.numElemPila(); i++) {
+                if (aux.cima() != pila.cima()) {
+                    eq = false;
+                    break;
+                }else {
+                    pila.desapilar();
+                    aux.desapilar();
+                }
+
+            }
+        }
+
+
+        return eq;
+    }
+
 
     public int numElemPila() {
         return numElementos;
