@@ -1,7 +1,6 @@
 package com.zugazagoitia.estructuraDeDatos.practica1.Palindromo;
 
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class Comprobador1 {
     private String frase;
@@ -39,12 +38,13 @@ public class Comprobador1 {
         }
     }
     private void partirMitad(){
-        int j = (pila1.numElemPila()/2);
+        int n = pila1.numElemPila();
+        int j = n/2;
 
         for (int i = 0;i<j;i++){
             pila2.apilar(pila1.desapilar());
         }
-        if (pila1.numElemPila() % 2 !=0){
+        if (n % 2 !=0){
             pila1.desapilar();
         }
     }
