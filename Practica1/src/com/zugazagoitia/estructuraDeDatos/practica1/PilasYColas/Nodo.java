@@ -1,4 +1,4 @@
-package  com.zugazagoitia.estructuraDeDatos.practica1.PilasYColas;
+package com.zugazagoitia.estructuraDeDatos.practica1.PilasYColas;
 
 public class Nodo {
 

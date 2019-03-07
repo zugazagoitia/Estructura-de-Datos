@@ -1,5 +1,7 @@
 package com.zugazagoitia.estructuraDeDatos.practica1.PilasYColas;
 
+import java.util.ArrayList;
+
 public class Pila {
 
     private Nodo cimaPila;
@@ -48,6 +50,28 @@ public class Pila {
             valor = cimaPila.getDato();
         }
         return valor;
+    }
+
+    public int sumarElementos(){
+        int suma=0;
+        Nodo aux = cimaPila;
+        suma=suma + aux.getDato();
+        while(aux.getSiguiente()!=null){
+            aux = aux.getSiguiente();
+            suma=suma + aux.getDato();
+        }
+        return suma;
+
+    }
+
+    void unirPila(Pila p){
+        ArrayList<Integer> temp = new ArrayList<Integer>();
+        while (p.numElementos>0){
+            temp.add(p.desapilar());
+        }
+        for (int i = temp.size() - 1; i >= 0; i--) {
+            this.apilar(temp.get(i));
+        }
     }
 
 

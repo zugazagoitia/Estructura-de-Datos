@@ -21,6 +21,21 @@ public class Cola {
         fin = nuevo;
         numElem++;
     }
+    void dejarN( int n){
+        if(n==0){
+            cabeza = null;
+            fin = null;
+            numElem = 0;
+        }else if(n<numElem) {
+            numElem=n;
+            Nodo aux = cabeza;
+            for (int i = 1; i < n; i++) {
+                aux = aux.getSiguiente();
+            }
+            fin = aux;
+            fin.setSiguiente(null);
+        }
+    }
 
     public int desencolar() {    //Devuelve el elemento del cabeza de la cola y lo elimina Si la cola está vacía, devuelve como resultado 0 y un mensaje de error
         Nodo nodo;
