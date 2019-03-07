@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7c2d5fc-0a34-4c87-9eaa-310ca60d47b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/PilaCaracteres.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/PilaCaracteres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +24,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="29">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,35 +45,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="624">
               <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Main.java">
+        <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/PilasYColas/Nodo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/PilaCaracteres.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="83" column="23" lean-forward="true" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/ColaCaracteres.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="59" selection-start-column="59" selection-end-column="59" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="method#Nodo#0;class#Nodo#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,15 +103,16 @@
         <option value="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador1.java" />
         <option value="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/PilaCaracteres.java" />
         <option value="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador2.java" />
+        <option value="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador3.java" />
         <option value="$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="845" />
-    <option name="y" value="-11" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="y" value="-13" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -128,6 +122,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,20 +157,26 @@
               <item name="practica1" type="462c0819:PsiDirectoryNode" />
               <item name="Palindromo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Estructura-de-Datos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estructura-de-Datos" type="462c0819:PsiDirectoryNode" />
+              <item name="Practica1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practica1" type="462c0819:PsiDirectoryNode" />
+              <item name="PilasYColas" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551528195010" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551957630381" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../minecraftServer-CadiBot" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -255,11 +257,13 @@
       <workItem from="1551281243568" duration="1022000" />
       <workItem from="1551348952096" duration="5250000" />
       <workItem from="1551362140603" duration="2611000" />
+      <workItem from="1551955087353" duration="2561000" />
+      <workItem from="1551971854240" duration="86000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11659000" />
+    <option name="totallyTimeSpent" value="14306000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,7 +277,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26979867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,13 +436,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/PilasYColas/NodoCaracteres.java" />
-    <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/PilasYColas/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/PilasYColas/Pila.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -450,16 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/PilasYColas/Nodo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="66" selection-start-column="66" selection-end-column="66" />
-          <folding>
-            <element signature="method#Nodo#0;class#Nodo#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -489,6 +476,13 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/ref/Reference.java" />
+    <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/PilaCaracteres.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/ColaCaracteres.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -496,10 +490,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/PilaCaracteres.java">
+    <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/PilasYColas/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="83" column="23" lean-forward="true" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -510,24 +511,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="624">
           <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Main.java">
+    <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/PilasYColas/Nodo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="method#Nodo#0;class#Nodo#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Practica1/src/com/zugazagoitia/estructuraDeDatos/practica1/Palindromo/Comprobador1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="29">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
