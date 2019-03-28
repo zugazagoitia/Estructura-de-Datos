@@ -1,3 +1,5 @@
+package com.zugazagoitia.estructuraDeDatos.practica2.ColaPriPacientes;
+
 public class Paciente {
     private String nombre;
     private String estado;

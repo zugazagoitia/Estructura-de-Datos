@@ -1,3 +1,5 @@
+package com.zugazagoitia.estructuraDeDatos.practica2.ColaPriPacientes;
+
 public class Cola {
     private Nodo cabeza, fin;
     private int numElem;
@@ -8,7 +10,7 @@ public class Cola {
         numElem = 0;
     }
 
-    public void encolar(int v) {    // Coloca el elemento v al final de la cola
+    public void encolar(Paciente v) {    // Coloca el elemento v al final de la cola
         Nodo nuevo;
         nuevo = new Nodo(v, null);
         if (cabeza != null) {
@@ -20,9 +22,9 @@ public class Cola {
         numElem++;
     }
 
-    public int desencolar() {    //Devuelve el elemento del cabeza de la cola y lo elimina Si la cola está vacía, devuelve como resultado 0 y un mensaje de error
+    public Paciente desencolar() {    //Devuelve el elemento del cabeza de la cola y lo elimina Si la cola está vacía, devuelve como resultado 0 y un mensaje de error
         Nodo nodo;
-        int resul = 0;
+        Paciente resul = null;
         if (cabeza == null) {
             System.out.println("Error, la cola está vacía");
         } else {
@@ -42,8 +44,8 @@ public class Cola {
 
 
 
-    public int primero() {  //Devuelve el elemento del cabeza de la cola Si la cola está vacía, devuelve como resultado -999 y un mensaje de error
-        int resul = -999;
+    public Paciente primero() {  //Devuelve el elemento del cabeza de la cola Si la cola está vacía, devuelve como resultado -999 y un mensaje de error
+        Paciente resul = null;
         if (!this.colaVacia()) {
             resul = cabeza.getDato();
         } else {
@@ -56,7 +58,7 @@ public class Cola {
         Nodo aux;
         aux = cabeza;
         while (aux != null) {
-            System.out.println(aux.getDato());
+            aux.getDato().verPaciente();
             aux = aux.getSiguiente();
         }
     }

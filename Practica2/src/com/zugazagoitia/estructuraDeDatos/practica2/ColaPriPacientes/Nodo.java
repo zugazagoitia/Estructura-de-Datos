@@ -1,12 +1,17 @@
-public class Nodo {
+package com.zugazagoitia.estructuraDeDatos.practica2.ColaPriPacientes;
 
-    private int dato;
+import com.zugazagoitia.estructuraDeDatos.practica2.ColaPriPacientes.Paciente;
+
+class Nodo {
+
+    private Paciente dato;
     private Nodo siguiente;
 
-    public Nodo(int dato, Nodo sig) {
+    public Nodo(Paciente dato, Nodo siguiente) {
         this.dato = dato;
-        this.siguiente = sig;
+        this.siguiente = siguiente;
     }
+
 
     public Nodo getSiguiente() {
         return siguiente;
@@ -16,11 +21,11 @@ public class Nodo {
         this.siguiente = siguiente;
     }
 
-    public int getDato() {
+    public Paciente getDato() {
         return dato;
     }
 
-    public void setDato(int dato) {
+    public void setDato(Paciente dato) {
         this.dato = dato;
     }
 }

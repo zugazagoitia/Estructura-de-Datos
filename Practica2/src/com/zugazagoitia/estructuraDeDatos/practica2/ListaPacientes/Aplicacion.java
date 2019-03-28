@@ -29,6 +29,15 @@ public class Aplicacion {
             it.next().verPaciente();
         }
         */
+        System.out.println("Prueba");
+        ListaOrdinal l2 = pacientesSintoma(lista,"Mareos");
+
+        it = l2.obtenerIterador();
+
+        while (it.hasNext()){
+            it.next().verPaciente();
+        }
+
 
     }
 
